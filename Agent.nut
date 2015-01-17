@@ -1,5 +1,5 @@
-const FEED_ID = "1767602852";
-const API_KEY = "oj6bHIVarZMhcZrfyekLtFZviDmamTzHBVaXSfkIOwIZ2wEb";
+const FEED_ID = "YOUR_FEED_ID";
+const API_KEY = "YOUR_API_KEY";
 
 function send_xively(body) {
   local xively_url = "https://api.xively.com/v2/feeds/" + FEED_ID + ".csv";
